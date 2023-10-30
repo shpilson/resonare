@@ -1,0 +1,45 @@
+/* Basic */
+
+@font-face {
+    font-family: "Gogh";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: local("Gogh"), url('/fonts/Gogh-Regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: "Gogh";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Gogh"), url('/fonts/Gogh-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Gogh";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local("Gogh"), url('/fonts/Gogh-Bold.woff2') format('woff2');
+}
+
+
+body {
+    font-family: "Gogh", sans-serif;
+}
+
+/* Styles */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
