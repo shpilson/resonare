@@ -90,7 +90,7 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     background-position-x: 800px;
-    z-index: 1;
+    background-position-y: 163px;
 }
 
 .fs__hero {
@@ -147,6 +147,11 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     background: #262626;
+    background-image: url('/img/background.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 800px;
+    background-position-y: -300px;
 }
 
 .fs__about-title {
@@ -169,39 +174,113 @@ body {
 
 .features__title {}
 
-.features__box {}
+.features__box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
 
-.features__box-item {}
+.features__box-item {
+    border-radius: 8px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    padding: 14px;
+    margin-top: 31px;
+}
 
-.features__box-item-img {}
+.features__box-item-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
 
-.features__icon {}
+.features__box-item-img {
+    display: flex;
+    align-items: center;
+    max-width: 120px;
+    max-height: 120px;
+}
 
-.features__box-item-title {}
+.features__icon {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.features__box-item-title {
+    color: #000;
+    font-family: 'Gogh';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 .text--18 {}
 
 .features__box-item-description {}
 
-.services {}
+.services {
+    background: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .services__title {}
 
-.services__box {}
+.services__box {
+    display: flex;
+    flex-direction: column;
+}
 
-.services__box-item {}
+.services__box-item {
+    background: #fff;
+    padding: 30px;
+    width: 792px;
+    margin-bottom: 30px;
+}
 
-.services__box-item-title {}
+.services__box-item-title {
+    color: #262626;
+    font-family: 'Gogh';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+}
 
 .text--16 {}
 
-.services__box-item-misc {}
+.services__box-item-misc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+}
 
-.underline {}
+.underline {
+    width: 200px;
+}
 
-.arrow {}
+.arrow {
+    width: 36px;
+    height: 18px;
+}
 
-.services__box-item-descripton {}
+.services__box-item-descripton {
+    color: #000;
+    font-family: 'Gogh';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 16px;
+}
 
 .text--8 {}
 
