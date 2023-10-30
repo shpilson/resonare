@@ -228,6 +228,10 @@ body {
     background: #F2F2F2;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url('/img/services.svg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
 }
 
 .services__title {}
@@ -235,6 +239,7 @@ body {
 .services__box {
     display: flex;
     flex-direction: column;
+    align-items: end;
 }
 
 .services__box-item {
@@ -284,22 +289,58 @@ body {
 
 .text--8 {}
 
-.contact {}
+.contact {
+    background: #262626;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
-.contact__title {}
+.contact__title {
+    color: #fff;
+}
 
-.contact__box {}
+.contact__box {
+    margin-top: 24px;
+}
 
-.contact__box-text {}
+.contact__box-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+}
 
-.footer {}
+.footer {
+    background: #262626;
+    padding-bottom: 40px;
+}
 
-.footer__menu {}
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+}
 
 .footer__menu-list {}
 
-.footer__menu-list-item {}
+.footer__menu-list-item {
+    padding-left: 28px;
+}
 
-.footer__menu-link {}
+.footer__menu-link {
+    color: #FFF;
+    text-decoration: none;
+}
 
 .footer__arrow {}
+
+.f-arrow {
+    width: 68px;
+    height: 43px;
+}
