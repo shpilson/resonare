@@ -40,6 +40,187 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+.header {
+    background-color: #262626;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.h-40px {
+    height: 40px;
+}
+
+.logo-img {}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__menu-list {}
+
+.header__menu-list-item {
+    margin: 0 16px;
+}
+
+.header__menu-link {
+    color: #FFF;
+    font-family: "Gogh";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.fs {
+    background-image: url('/img/background.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 800px;
+    z-index: 1;
+}
+
+.fs__hero {
+    margin-top: 113px;
+    margin-bottom: 113px;
+}
+
+.fs__hero-title {
+    color: #262626;
+    font-family: 'Gogh';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 56px;
+    text-decoration: underline 3px #EFB624;
+    text-underline-offset: 8px;
+}
+
+
+.fs__hero-description {
+    color: #262626;
+    font-family: 'Gogh';
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 64px;
+    margin-top: 24px;
+    max-width: 650px;
+}
+
+.text--10 {}
+
+.fs__hero-button {}
+
+.fs__hero-btn {
+    background-color: #EFB624;
+    border-radius: 100px;
+    line-height: 22px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #FFF;
+    border: none;
+    text-decoration: none;
+}
+
+.fs__about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #262626;
+}
+
+.fs__about-title {
+    color: #FFF;
+}
+
+.fs__about-description {
+    width: 690px;
+    margin-top: 40px;
+}
+
+.text--10w {
+    color: #FFF;
+}
+
+.features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.features__title {}
+
+.features__box {}
+
+.features__box-item {}
+
+.features__box-item-img {}
+
+.features__icon {}
+
+.features__box-item-title {}
+
+.text--18 {}
+
+.features__box-item-description {}
+
+.services {}
+
+.services__title {}
+
+.services__box {}
+
+.services__box-item {}
+
+.services__box-item-title {}
+
+.text--16 {}
+
+.services__box-item-misc {}
+
+.underline {}
+
+.arrow {}
+
+.services__box-item-descripton {}
+
+.text--8 {}
+
+.contact {}
+
+.contact__title {}
+
+.contact__box {}
+
+.contact__box-text {}
+
+.footer {}
+
+.footer__menu {}
+
+.footer__menu-list {}
+
+.footer__menu-list-item {}
+
+.footer__menu-link {}
+
+.footer__arrow {}
