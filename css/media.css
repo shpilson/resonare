@@ -111,7 +111,9 @@
 
     .services__box {}
 
-    .services__box-item {}
+    .services__box-item {
+        width: 100%;
+    }
 
     .services__box-item-title {}
 

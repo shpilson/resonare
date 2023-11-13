@@ -277,6 +277,15 @@ body {
     height: 18px;
 }
 
+.services__box-item-descripton,
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked~.services__box-item-descripton {
+    display: block;
+}
+
 .services__box-item-descripton {
     color: #000;
     font-family: 'Gogh';
