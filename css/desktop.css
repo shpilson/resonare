@@ -86,11 +86,11 @@ body {
 }
 
 .fs {
-    background-image: url('/img/background.svg');
+    background-image: url('/img/background1.svg');
     background-position: right;
     background-repeat: no-repeat;
-    background-position-x: 800px;
-    background-position-y: 163px;
+    background-position-x: 522px;
+    background-position-y: -74px;
 }
 
 .fs__hero {
@@ -147,11 +147,11 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     background: #262626;
-    background-image: url('/img/background.svg');
+    background-image: url('/img/background2.svg');
     background-position: right;
     background-repeat: no-repeat;
-    background-position-x: 800px;
-    background-position-y: -300px;
+    background-position-x: 522px;
+    background-position-y: -540px;
 }
 
 .fs__about-title {
