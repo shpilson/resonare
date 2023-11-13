@@ -1,0 +1,165 @@
+@media (max-width: 320px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media (max-width: 970px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 970px;
+        padding: 0 20px;
+    }
+
+    .wrapper {}
+
+    .header {
+        padding: 20px 0px;
+    }
+
+    .container {}
+
+    .header__top {}
+
+    .logo {}
+
+    .logo-img {}
+
+    .h-40px {}
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu-list-item {}
+
+    .header__menu-link {}
+
+    .fs {
+        background-size: 100%;
+        background-position-x: center;
+        background-position-y: 328px;
+    }
+
+    .fs__hero {
+        margin-top: 30px;
+    }
+
+    .fs__hero-title {
+        font-size: 48px;
+    }
+
+    .fs__hero-description {
+        margin-bottom: 12px;
+    }
+
+    .text--10 {}
+
+    .fs__hero-button {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 200px;
+    }
+
+    .fs__hero-btn {}
+
+    .fs__about {
+        background-position-x: center;
+        background-position-y: -210px;
+        background-size: contain;
+        padding-top: 200px;
+    }
+
+    .fs__about-title {}
+
+    .title {}
+
+    .fs__about-description {
+        width: 100%;
+    }
+
+    .text--10w {}
+
+    .features {}
+
+    .features__title {}
+
+    .features__box {}
+
+    .features__box-item {}
+
+    .features__box-item-img {}
+
+    .features__icon {}
+
+    .features__box-item-desc {}
+
+    .features__box-item-title {}
+
+    .text--18 {}
+
+    .features__box-item-description {}
+
+    .services {}
+
+    .services__title {}
+
+    .services__box {}
+
+    .services__box-item {}
+
+    .services__box-item-title {}
+
+    .text--16 {}
+
+    .services__box-item-misc {}
+
+    .underline {}
+
+    .arrow {}
+
+    .services__box-item-descripton {}
+
+    .text--8 {}
+
+    .contact {
+        padding-bottom: 10px;
+    }
+
+    .contact__title {}
+
+    .contact__box {
+        padding-left: 40px;
+    }
+
+    .contact__box-text {}
+
+    .footer {}
+
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__menu {
+        padding-top: 30px;
+    }
+
+    .footer__menu-list-item {
+        font-size: 8px;
+    }
+
+    .footer__menu-link {}
+
+    .footer__arrow {
+        display: none;
+    }
+
+    .f-arrow {}
+
+}
