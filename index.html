@@ -207,10 +207,9 @@
                   src="/img/underline.svg"
                   alt="underline"
                 />
-                <label for="pseudoBtn"><img class="arrow" src="/img/arrow.svg" alt="arrow" /></label>
-                <input type="checkbox" id="pseudoBtn">
+<img class="arrow arrowrotate" src="/img/arrow.svg" alt="arrow" id="push"/>
               </div>
-              <div class="services__box-item-descripton text--8">
+              <div class="services__box-item-descripton text--8" id="ts1">
                 Resonare aims to offer conversion to and from all local Fiat
                 currencies through global and local providers. Crypto On-ramp is
                 a system that allows for the purchase of crypto assets by using
@@ -233,9 +232,9 @@
                   src="/img/underline.svg"
                   alt="underline"
                 />
-                <img class="arrow" src="/img/arrow.svg" alt="arrow" />
+                <img class="arrow" src="/img/arrow.svg" alt="arrow" id="push2"/>
               </div>
-              <div class="services__box-item-descripton text--8">
+              <div class="services__box-item-descripton text--8" id="ts2">
                 Resonare offers corporate and institutional clients to
                 facilitate transactions, we support projects and other web3
                 products that are in need of payment networks and a company to
@@ -254,9 +253,9 @@
                   src="/img/underline.svg"
                   alt="underline"
                 />
-                <img class="arrow" src="/img/arrow.svg" alt="arrow" />
+                <img class="arrow" src="/img/arrow.svg" alt="arrow" id="push3"/>
               </div>
-              <div class="services__box-item-descripton text--8">
+              <div class="services__box-item-descripton text--8" id="ts3">
                 Resonare will enable payment facilitation for institutions
                 through electronic transfers, and credit cards across the world.
               </div>
@@ -325,5 +324,64 @@
       </footer>
       <!-- Footer end -->
     </div>
+
+    <script>
+/**
+ * Показываем / Скрываем блоки в Services
+ */
+ let isVisible = true;
+const div = document.getElementById('ts1');
+const arrow = document.getElementById('push');
+
+function trigger() {
+  isVisible = !isVisible;
+  arrow.style.transform = isVisible ? "rotate(180deg)" : "rotate(0deg)";
+  div.style.display = isVisible ? "none" : "block";
+};
+
+document
+  .getElementById('push')
+  .addEventListener('click', trigger);
+    </script>
+
+<script>
+  /**
+   * Показываем / Скрываем блоки в Services
+   */
+   let isVisible2 = true;
+  const div2 = document.getElementById('ts2');
+  const arrow2 = document.getElementById('push2');
+  
+  function trigger() {
+    isVisible2 = !isVisible2;
+    arrow2.style.transform = isVisible2 ? "rotate(180deg)" : "rotate(0deg)";
+    div2.style.display = isVisible2 ? "none" : "block";
+  };
+  
+  document
+    .getElementById('push2')
+    .addEventListener('click', trigger);
+      </script>
+
+<script>
+  /**
+   * Показываем / Скрываем блоки в Services
+   */
+   let isVisible3 = true;
+  const div3 = document.getElementById('ts3');
+  const arrow3 = document.getElementById('push3');
+  
+  function trigger() {
+    isVisible3 = !isVisible3;
+    arrow3.style.transform = isVisible3 ? "rotate(180deg)" : "rotate(0deg)";
+    div3.style.display = isVisible3 ? "none" : "block";
+  };
+  
+  document
+    .getElementById('push3')
+    .addEventListener('click', trigger);
+      </script>
+
+
   </body>
 </html>

@@ -275,25 +275,7 @@ body {
 .arrow {
     width: 36px;
     height: 18px;
-}
-
-.services__box-item-descripton,
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"]:checked~.services__box-item-descripton {
-    display: block;
-}
-
-.services__box-item-descripton {
-    color: #000;
-    font-family: 'Gogh';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 16px;
+    transform: rotate(180deg);
 }
 
 .text--8 {}
@@ -352,4 +334,13 @@ input[type="checkbox"]:checked~.services__box-item-descripton {
 .f-arrow {
     width: 68px;
     height: 43px;
+}
+
+
+#div1 {
+    display: none;
+}
+
+.services__box-item-descripton {
+    display: none;
 }
